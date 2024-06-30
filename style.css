@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sawarabi Mincho";
+}
+body{
+    background-image: url(/img/mark.png);
+}
+header{
+    z-index: 2;
+    position: fixed;
+    align-items: center;
+    width: 100vw;
+    height: 65px;
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+}
+header img{
+    margin-left: 10px;
+}
+header ul{
+    height: 4vh;
+    margin-right: 70px;
+    padding: 0 30px;
+    display: flex;
+    background-color: #fe6625;
+    border-radius: 30px;
+}
+header ul li{
+    width: auto;
+    margin: auto 20px;
+    list-style: none;
+    font-weight: bold;
+}
+header ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 0.4s;
+}
+header ul li a:hover{
+    color: rgba(163, 163, 163, 0.7);
+    transition: 0.4s;
+}
+.top .top2{
+    padding-top: 65px;
+    background-color: #f5f5f5;
+    height: auto;
+    color: #fe6625;
+    text-align: center;
+}
+.topimage{
+    position: relative;
+}
+.topimage .message{
+    top: calc(100vw*0.15);
+    left: 20px;
+    z-index: 1;
+    position: absolute;
+    font-size: 6vw;
+    font-weight: bold;
+    color: #ffffff;
+}
+.top img{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100vw;
+}
+.tuyomi{
+    margin-top: calc(100vw*0.46);
+    padding: 5vh 0;
+    position: static;
+    width: 100vw;
+    height: auto;
+    background-color: #fffffff0;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+h1{
+    margin-left: 5vw;
+    height: auto;
+    padding: 0 3vw 0 2vw;
+    color: #fe6625;
+}
+h1 span{
+    margin-left: 2vw;
+    font-size: 1.3vw;
+}
+.midashi{
+    margin: 1vh;
+    width: 35vw;
+    height: auto;
+}
+p{
+    padding: 0 3vw;
+    font-size: 2.2vw;
+}
+.tuyomi .detail{
+    margin: 1vh;
+    width: auto;
+    height: auto;
+}
+.tuyomi .detail ul{
+    margin-right: 30vw;
+}
+.detail li{
+    align-items: center;
+    padding: 1vh 0;
+    list-style: none;
+    font-weight: bold;
+    border-top: 1px solid #bababa;
+    font-size: 1.6vw;
+
+}
+li span{
+    margin-left: 1vw;
+    margin-right: 1.5vw;
+}
+.space{
+    padding: 0 1vw;
+}
+li.last{
+    border-bottom: 1px solid #bababa;
+}
+.detail span{
+    color: #bababa;
+    font-size: 1.3vw;
+}
+.shikaku{
+    padding: 5vh 0;
+    width: 100vw;
+    height: auto;
+    background-color: #f4f4f4f0;
+}
+.shikaku h1{
+    margin-left: 17vw;
+}
+.shikaku .midashi{
+}
+.shikaku .inf{
+    color: #fe6625bd;
+}
+.shikaku .tusin{
+    color: rgba(0, 34, 255, 0.687);
+}
+.shikaku .vol{
+    color: #ff00ffa1;
+}
+.future{
+    background-color: #fffffff0;
+    padding: 5vh 0;
+    width: 100vw;
+    height: auto;
+}
+.future h1{
+    text-align: center;
+}
+.future .midashi{
+    width: auto;
+    padding: 1vh 9vw;
+}
+.future .last{
+    text-align: center;
+    text-decoration: underline #bababa;
+}
+strong{
+    color: #fe6625;
+}
+footer{
+    background-color: #fff7f2;
+    width: 100vw;
+    height: auto;
+}
+footer img{
+    margin-top: 5vh;
+    margin-left: 10vw;
+    width: 200px;
+}
+.link-box{
+    display: flex;
+    margin-left: 10vw;
+    align-items: center;
+}
+.link-box a{
+    margin: 4vw;
+    font-size: 1.8vw;
+    text-decoration: none;
+    color: #009dff9c;
+    transition: 0.4s;
+}
+.link-box a:hover{
+    transform: 0.4s;
+    color: #0033ff;
+}
+.link-box p{
+    margin: 2vw;
+    font-size: 1.8vw;
+}
+.link-box .info{
+    margin: 0;
+    color: #fe6625;
+    font-weight: bold;
+    padding: 1vh 2vw;
+    border: solid 3px #fe6625;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+.link-box .info:hover{
+    color: #FFFFFF;
+    background-color: #fe6625;
+    transition: 0.4s;
+}
+.end{
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 12px;
+}
