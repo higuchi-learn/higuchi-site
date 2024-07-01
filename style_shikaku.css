@@ -62,112 +62,11 @@ header ul li a:hover{
     font-weight: bold;
     color: #ffffff;
 }
-.top img{
+.topimage img{
     top: 0;
     left: 0;
     position: absolute;
     width: 100vw;
-}
-.tuyomi{
-    margin-top: calc(100vw*0.46);
-    padding: 5vh 0;
-    position: static;
-    width: 100vw;
-    height: auto;
-    background-color: #fffffff0;
-}
-.box{
-    display: flex;
-    justify-content: center;
-    align-items: start;
-}
-h1{
-    margin-left: 5vw;
-    height: auto;
-    padding: 0 3vw 0 2vw;
-    color: #fe6625;
-    font-size: 1.7vw;
-}
-h1 span{
-    margin-left: 2vw;
-    font-size: 1.3vw;
-}
-.midashi{
-    margin: 1vh;
-    width: 35vw;
-    height: auto;
-}
-p{
-    padding: 0 3vw;
-    font-size: 2.2vw;
-}
-.tuyomi .detail{
-    margin: 1vh;
-    width: auto;
-    height: auto;
-}
-.tuyomi .detail ul{
-    margin-right: 30vw;
-}
-.detail li{
-    align-items: center;
-    padding: 1vh 0;
-    list-style: none;
-    font-weight: bold;
-    border-top: 1px solid #bababa;
-    font-size: 1.6vw;
-
-}
-li span{
-    margin-left: 1vw;
-    margin-right: 1.5vw;
-}
-.space{
-    padding: 0 1vw;
-}
-li.last{
-    border-bottom: 1px solid #bababa;
-}
-.detail span{
-    color: #bababa;
-    font-size: 1.3vw;
-}
-.shikaku{
-    padding: 5vh 0;
-    width: 100vw;
-    height: auto;
-    background-color: #f4f4f4f0;
-}
-.shikaku h1{
-    margin-left: 17vw;
-}
-.shikaku .midashi{
-}
-.shikaku .inf{
-    color: #fe6625bd;
-}
-.shikaku .tusin{
-    color: rgba(0, 34, 255, 0.687);
-}
-.shikaku .vol{
-    color: #ff00ffa1;
-}
-.future{
-    background-color: #fffffff0;
-    padding: 5vh 0;
-    width: 100vw;
-    height: auto;
-}
-.future h1{
-    text-align: center;
-}
-.future .midashi{
-    width: auto;
-    padding: 1vh 9vw;
-}
-.future .last{
-    text-align: center;
-    text-decoration: underline #bababa;
 }
 strong{
     color: #fe6625;
